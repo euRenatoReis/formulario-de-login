@@ -1,0 +1,82 @@
+
+body{
+ 
+    background-color:slateblue;
+    padding: 0px;
+    height:1500px;
+}
+
+p{
+
+    color:dodgerblue; 
+    position: relative;
+    left: 10%;  
+    top: 1%; 
+
+}
+
+h1{
+
+    color:dodgerblue;
+    position: relative;
+    left: 550px;  
+
+}
+
+input{
+
+  border-color: dodgerblue;
+  position: relative;
+  left: 9%;
+  top: 1%; 
+
+}
+
+input :required :empty{
+
+  border-color: darkred;
+ 
+}
+
+div{
+
+   background-color: darkslateblue;    
+   position: relative;
+   left: 450px;
+   height: 700px;
+   width: 500px;
+   border-radius: 30px;
+   border: 5px;
+   border-color: dodgerblue;
+   border-style:groove;
+   
+}
+
+.ocultar{
+
+position: fixed;
+ right: 310px;
+ 
+}
+
+.sexo li{
+ 
+  display: inline-block;
+  
+}
+.sexo li input{
+
+  left: 0px;
+}
+
+
+.termos input{
+
+  left: 0%;
+}
+
+@media(max-width:768px) { }
+
+@media(max-width:992px) { }
+
+@media(max-width:1200px) { }

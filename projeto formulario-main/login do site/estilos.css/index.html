@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./estilos.css">
+
+</head>
+<body>
+
+    <h1> Meu Site Eu Criei</h1>
+
+    
+  <div>
+    <p>Nome:</p>
+    <input placeholder="Digite Seu Nome" required>
+    <p>Email:</p>
+    <input type="email" placeholder="Ex: companhiadojose@email.com" required>
+    <p>Telefone:</p>
+    <input type="tel" placeholder="Ex: (27)40028922" required>
+    <p>Data de Nascimento:</p>
+    <input type="date" required>
+    <p>Sexo:</p>
+    <ul class="sexo">
+    
+    <li>  
+        <p> <input type="radio" name="sexo" value="masculino" required> masculino</p>  
+    </li>
+    <li>
+        <p> <input type="radio" name="sexo" value="feminino" required> feminino</p>
+    </li>
+    <li> 
+        <p> <input type="radio" name="sexo" value="outros" required> outros</p>
+    </li>
+    <li>
+        <p> <input type="radio" name="sexo" value="naoespecificou" required> Não Especificar</p>
+    </li>
+
+    </ul>
+
+    <p>Digite Uma Senha:</p> 
+    <input type="password" placeholder="Digite Sua Senha" required min="8" max="16" class="senha1"> 
+    <p>Digite Sua Senha Novamente: </p>
+    <input type="password" placeholder="Digite Sua Senha" required min="8" max="16" class="senha2">
+    
+    <p class="termos"><input type="checkbox" required> Concordar Com os Termos E servicos:</p> 
+    
+    <input type="submit">
+  </div>
+
+  <script rel="script" src="./mecanism.js"> </script>
+  
+</body>
+</html>
